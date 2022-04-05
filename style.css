@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 80%;
+  display: flex;
+  min-height: 100vh;
+  background-color: white;
+  flex-direction: column;
+}
+.main span {
+  font-size: 20px;
+  margin: 0.5em 2em;
+}
+.main p {
+  margin: 0.5em 2.5em;
+  font-size: 16px;
+  text-align: justify;
+}
+.profile {
+  width: 100%;
+  height: 20em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.cover {
+  width: 100%;
+  height: 80%;
+  background: url(./file/BIGDANHE2.png) no-repeat center;
+}
+.profile-image {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 0.5em;
+  background-color: #247c67d5;
+  color: #242145;
+  height: 20%;
+  align-items: center;
+}
+.item li {
+  list-style: none;
+}
